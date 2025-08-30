@@ -1,12 +1,29 @@
-# React + Vite
+# AquaSave 💧 – Smart Water Usage Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+A hackathon prototype that simulates **smart water usage monitoring** and **leakage detection**.  
+Built with React + Vite.
 
-Currently, two official plugins are available:
+- Real-time flow simulation (L/min)
+- Leak detection alerts (threshold logic)
+- Live usage chart
+- Hostel leaderboard demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- React (Vite)
+- Chart.js (react-chartjs-2)
+- JavaScript / CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ▶️ Run Locally
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Juhi-Rajput07/aquasave-prototype.git
+cd aquasave-prototype
+npm install
+npm run dev
+
